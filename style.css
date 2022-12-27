@@ -1,0 +1,40 @@
+/*
+Main Style Sheet for rcollins130.github.io
+*/
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+.comment {
+    font-weight: bold;
+    color: green;
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+    padding: 5px 10px;
+}
+
+.menu li a:hover, .active{
+    background-color: black;
+}
+
+#contact ul{
+    list-style-type: none;
+}
