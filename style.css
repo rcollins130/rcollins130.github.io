@@ -6,7 +6,7 @@ Main Style Sheet for rcollins130.github.io
     font-family: 'Courier New', Courier, monospace;
 }
 
-h3 a{
+h1, h2, h3, a{
     color: black;
 }
 
