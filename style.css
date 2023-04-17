@@ -5,8 +5,14 @@ Main Style Sheet for rcollins130.github.io
 * {
     font-family: 'Courier New', Courier, monospace;
 }
+
+h1, h2, h3, a{
+    color: black;
+}
+
 .comment {
     font-weight: bold;
+    font-style: italic;
     color: green;
 }
 
@@ -37,4 +43,5 @@ Main Style Sheet for rcollins130.github.io
 
 #contact ul{
     list-style-type: none;
+    padding: 0;
 }

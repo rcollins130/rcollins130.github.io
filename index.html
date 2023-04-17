@@ -2,33 +2,102 @@
 <html>
 <head>
     <title>Bobby Collins</title>
-    <base href="https://rcollins130.github.io/index.html">
+    <!---<base href="https://rcollins130.github.io/index.html">-->
+    <!---<base href="/Users/robertcollins/Documents/GitHub/rcollins130.github.io/index.html">--->
     <meta name="viewport" content="width=device-width, initial-scale 1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div id="header">
-        <span class="comment">&#x1F6A7 Work In Progress &#x1F6A7</span>
-        <h1>Bobby Collins</h1>
+        <h1><a href="index.html">Bobby Collins</a></h1>
         <span class="menu">
             <ul>
-                <li><a href="index.html" class="active">Index</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
             </ul>
         </span>
     </div>
+    <!-- <span class="comment">&#x1F6A7 Site Work In Progress &#x1F6A7</span> -->
 
     <div id="about">
-        <p id="work">
-            Part-time Staff Scientist at <a href="https://bbn.com" target="_blank">bbn.com</a> <br>
+        <h2> About </h2>
+
+        <p id="blurb">
+            Interested in defense tech, distributed sensing, underwater acoustics, physical simulation, mechanical design, and a lot more. 
+            This website is a work in progress - I'm continuing to add information about past projects and updates on current work. 
+            <a href="index.html#contact">Get in touch!</a> 
         </p>
-        
+
         <p id="education">
-            Current Stanford MS Mechanical Engineering '24<br>
+            Stanford MS Mechanical Engineering '24 (Current)<br>
             Harvard SB Mechanical Engineering '20<br>
         </p>
+        
+        <p id="work">
+            2020-2023: Staff Scientist at Raytheon BBN (<a href="https://bbn.com" target="_blank">bbn.com</a>), 
+            Physical Sciences and Systems, Applied Physical Sciences Group <br>
+            2018-2019: Mechanical Engineering Intern at Midé Technologies (<a href="https://www.mide.com/" target="_blank">mide.com</a>)
+        </p>
+        
+    </div>
+
+    <div id="contact">
+        <h2> Contact </h2>
+        <ul>
+            <!--<li>robert collins 130 at gmail dot com</li>-->
+            <li><a href="mailto:robertcollins130@gmail.com" target="_blank">mailto:robertcollins130@gmail.com</a><br></li>
+            <li><a href="https://www.linkedin.com/in/rcollins130/" target="_blank">LinkedIn</a><br></li>
+            <li><a href="https://github.com/rcollins130" target="_blank">GitHub</a><br></li>
+        </ul>
+        Resume Available Upon Request
+    </div>
+
+    <div id="projects">
+        <h2> Selected Projects </h2>
+        <h3> Personal </h3>
+        <ul>
+            <li> Apache </li>
+            <ul>
+                <li> Raspberry Pi 4 mounted in Harbor Freight Apache 1800. </li>
+            </ul>
+            <li> Occidental </li>
+            <ul>
+                <li> Home server for backups, network attached storage, and some home automation.</li>
+            </ul>
+        </ul>
+        <h3> Stanford </h3>
+        <ul>
+            <li><a href="projects/oat.html">OAT: Optical Aircraft Tracking</a></li>
+            <ul>
+                <li> Stanford ME354 Winter 2023</li>
+                <li> I track airplanes with a camera and software-defined radio. </li>
+            </ul>
+        </ul>
+        <h3> Harvard </h3>
+        <ul>
+            <li><a href="projects/dogs.html">DOGS: A Robotic Solution for Dog Waste Collection in a Service Dog Facility</a></li>
+            <ul>
+                <li> Harvard ES100 Fall/Spring 2020: Engineering Senior Capstone Project</li>
+                <li> I make a robot pick up dog waste.</li>
+                <li><i><a href="https://seas.harvard.edu/news/2020/05/seniors-honored-exceptional-work" target="_blank">
+                    Seniors honored for exceptional work: Dean's Award recipients earn praise for capstone projects</a></i></li>
+                <li><i><a href="https://seas.harvard.edu/news/2020/04/senior-project-spotlight-robert-collins" target="_blank">
+                    Senior project spotlight: Robert Collins</a></i></li>
+            </ul>
+            <li>Dot Hunter</li>
+            <ul>
+                <li>Harvard ES52 Spring 2018</li>
+                <li>A classmate and I implement a <a href="https://en.wikipedia.org/wiki/Duck_Hunt" target="_blank">Duck Hunt</a> clone
+                    on an LED strip, using analog and digital electronics for gameplay, and an Arduino for graphics.</li>
+            </ul>
+            <li>LED Arcade</li>
+            <ul>
+                <li>Harvard CS50 Fall 2016</li>
+                <li>I program an Arduino with a suite of games playable on an LED strip.</li>
+            </ul>
+        </ul>
     </div>
 </body>
 </html>
